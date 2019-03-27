@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    tools:context=".popscreen">
+
+
+    <ImageView
+        android:id="@+id/imagpop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="@dimen/margbord"
+        android:layout_marginLeft="@dimen/margbord"
+        android:layout_marginTop="@dimen/margbord"
+        android:layout_marginRight="@dimen/margbord"
+        android:layout_marginEnd="@dimen/margbord"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/margbord"
+        android:layout_marginLeft="@dimen/margbord"
+        android:layout_marginRight="@dimen/margbord"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/margbord"
+        android:layout_marginStart="@dimen/margbord"
+        android:layout_marginRight="@dimen/margbord"
+        android:layout_marginBottom="@dimen/margbord"
+        android:textColor="@android:color/darker_gray"/>
+
+
+</LinearLayout>

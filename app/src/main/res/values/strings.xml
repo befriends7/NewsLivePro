@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsLive</string>
+    <string name="text">
+        This app requires packet data. Please activate net connection and refresh page.
+    </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

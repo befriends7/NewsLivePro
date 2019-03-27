@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    android:gravity="center"
+    android:background="#EEEEEE">
+
+
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                       android:layout_height="270dp">
+
+
+
+
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@android:color/white" android:orientation="horizontal">
+
+            <ImageView android:id="@+id/image1" android:layout_width="170dp" android:layout_height="match_parent"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView android:id = "@+id/tiitle"  android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="40dp" android:textColor="#FE637A" android:text="TITLE" android:textSize="16sp" android:textStyle="bold" android:layout_marginStart="@dimen/margbord" android:layout_marginLeft="@dimen/margbord"
+                />
+
+                <TextView android:id = "@+id/desc"  android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp" android:text="Description" android:textSize="14sp" android:textColor="#B2B8C4" android:textStyle="bold" android:layout_marginStart="@dimen/margbord" android:layout_marginLeft="@dimen/margbord"
+                />
+
+                <TextView android:id = "@+id/author"  android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/star" android:layout_marginTop="100dp" android:text="Price" android:textSize="14sp" android:textColor="#B2B8C4" android:textStyle="bold" android:layout_marginStart="@dimen/margbord" android:layout_marginLeft="@dimen/margbord"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
